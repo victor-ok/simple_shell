@@ -47,7 +47,7 @@ void exe(char **command, char *name, char **env, int rounds)
 				return;
 			}
 		}
-		msg_error(name, rounds, command);
+		msg_error(name, command, rounds);
 		mem_free(pth);
 	}
 }
